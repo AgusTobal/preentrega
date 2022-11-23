@@ -326,7 +326,7 @@ a{
     color: rgb(15, 1, 1);
 }
 
-@media screen and (max-width:480px) {
+@media screen and (max-width:500px) {
 
     body{
         background-image: url(../img/Gym.jpg);
@@ -408,6 +408,20 @@ a{
     
     }
 
+    .nike{
+        width: 200px;
+        padding: 10px;
+        transition: 0.5s;
+    }
+
+
+    .adidas{
+        width: 200px;
+        padding: 10px;
+        transition: 0.5s;
+    }
+
+
     h3{
         font-size: 30px;
     }
@@ -484,6 +498,9 @@ a{
         font-size: 18px;
     }
 
+    .ubicacion{
+        width: 100%;
+    }
         
     
 
