@@ -595,7 +595,18 @@ main .total {
   .mapa h2 {
     margin-bottom: 1rem; }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 1024px) {
+  .mapa {
+    text-align: center;
+    align-items: center;
+    margin-top: 60px;
+    font-size: 2.2rem; }
+    .mapa h2 {
+      margin-bottom: 1rem; }
+    .mapa .ubicacion {
+      width: 95%; } }
+
+@media screen and (max-width: 520px) {
   .mapa {
     text-align: center;
     align-items: center;
