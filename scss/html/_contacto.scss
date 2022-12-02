@@ -1,0 +1,30 @@
+main{
+    .contacto{
+        color: black;
+        h2{
+            padding: 10px;
+            margin: 5px;
+            text-align: center;
+            font-size: 4rem;
+        }
+        p{
+            text-align: center;
+            font-size: 1.5rem;
+        }
+    }
+    .total{
+        margin: 5px;
+        padding: 2px;
+
+        .numero{
+            @include contacto;
+        }
+        .mail{
+            @include contacto;
+
+        }
+        .redes{
+            @include contacto;
+        }
+    }
+}

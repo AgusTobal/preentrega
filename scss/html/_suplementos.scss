@@ -1,0 +1,76 @@
+.recomendaciones{
+    height: 10px;
+    padding: 50px;
+    text-align: center;
+    font-size: 90px;
+}
+
+.imagenes{
+    background-color:rgb(180, 180, 180);
+    padding: 9.5px;
+    margin: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 100px;
+    text-align: center;
+
+    .proteina-1{
+        h3{
+            margin-bottom: 3px;
+        }
+        .primera-img{
+            width: 250px;
+            height: 250px;
+            font-size: 30px;
+            transition: 0.3s;
+            &:hover{
+                @include hover-img;
+             }
+        }
+    }
+
+    .proteina-2{
+        h3{
+            @include margin-h3;
+        }
+        .segunda-img{
+            width: 250px;
+            height: 250px;
+            font-size: 30px;
+            transition: 0.3s;
+            &:hover{
+                @include hover-img;
+            }
+        }
+    }
+    .proteina-4{
+        h3{
+            @include margin-h3;
+        }
+        .tercera-img{
+            width: 250px;
+            height: 250px;
+            font-size: 30px;
+            transition: 0.3s;
+            &:hover{
+                @include hover-img;
+            }
+        }
+    }
+    .creatina-1{
+        h3{
+            @include margin-h3;
+        }
+        .cuarta-img{
+            align-items: center;
+            width: 250px;
+            height: 250px;
+            font-size: 30px;
+            transition: 0.3s;
+            &:hover{
+                @include hover-img;
+            }
+        }
+    }
+
+}

@@ -1,508 +1,271 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Prata', serif;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Prata', serif; }
 
-}
+body {
+  background-color: GhostWhite;
+  background-image: url(../img/Gym.jpg);
+  background-size: cover;
+  background-repeat: no-repeat; }
 
-body{
-    background-color:GhostWhite;
-    background-image: url(../img/Gym.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-header{
-    background-color: rgb(206, 206, 206);
-    padding: 15px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    
-}
-
-header h1{
+header {
+  background-color: #cecece;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+  header h1 {
     background-color: white;
     border-radius: 50px;
     text-shadow: 2px 3px 8px;
     font-size: 40px;
-    padding: 10px;
-}
-
-nav ul{
+    padding: 10px; }
+  header nav ul {
     list-style: none;
     display: flex;
-    gap: 10px;
-}
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px; }
+    header nav ul li {
+      background-color: white;
+      padding: 10px;
+      border-radius: 150px;
+      text-shadow: 3px 2px 7px black;
+      transition: 0.5s; }
+      header nav ul li:hover {
+        background-color: #adadad;
+        transform: scale(0.9);
+        transition-property: all;
+        transition-duration: 0.3s; }
 
+/*main*/
+.recomendaciones {
+  height: 10px;
+  padding: 50px;
+  text-align: center;
+  font-size: 90px; }
 
-
-nav ul li{
-    background-color:white;
-    padding: 10px;
-    border-radius: 150px;
-    text-shadow: 3px 2px 7px black;
-    transition: 0.5s;
-}
-
-nav ul li:hover{
-    background-color: rgb(173, 173, 173);
-    transform: scale(0.9);
-    transition-property: all;
-    transition-duration: 0.3s;
-}
-
-.recomendaciones{
-    height: 10px;
-    padding: 50px;
-    text-align: center;
-    font-size: 90px;
-}
-
-
-.imagenes{
-    background-color:rgb(180, 180, 180);
-    padding: 9.5px;
-    margin: 100px;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 100px;
-    text-align: center;
-}
-
-
-.primera-img {
+.imagenes {
+  background-color: #b4b4b4;
+  padding: 9.5px;
+  margin: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 100px;
+  text-align: center; }
+  .imagenes .straps-1 h3 {
+    margin-bottom: 3px; }
+  .imagenes .straps-1 .primera-img {
+    width: 250px;
+    height: 250px;
+    font-size: 3px;
+    transition: 0.3s; }
+    .imagenes .straps-1 .primera-img:hover {
+      box-shadow: 1px 1px 15px;
+      transform: scale(1.02);
+      transition-property: all;
+      transition-duration: 0.3s; }
+  .imagenes .straps-1 p {
+    font-size: 1.3rem; }
+  .imagenes .cinturon-1 h3 {
+    margin-bottom: 3px; }
+  .imagenes .cinturon-1 .segunda-img {
     width: 250px;
     height: 250px;
     font-size: 30px;
-    transition: 0.3s;
-}
-
-.primera-img:hover{
-    box-shadow: 1px 1px 15px;
-    transform: scale(1.02);
-    transition-property: all;
-    transition-duration: 0.3s;
-}
-
-.segunda-img{
+    transition: 0.3s; }
+    .imagenes .cinturon-1 .segunda-img:hover {
+      box-shadow: 1px 1px 15px;
+      transform: scale(1.02);
+      transition-property: all;
+      transition-duration: 0.3s; }
+  .imagenes .cinturon-1 p {
+    font-size: 1.3rem; }
+  .imagenes .guantes-1 h3 {
+    margin-bottom: 3px; }
+  .imagenes .guantes-1 .tercera-img {
     width: 250px;
     height: 250px;
     font-size: 30px;
-    transition: 0.3s;
-}
-
-.segunda-img:hover{
-    box-shadow: 1px 1px 15px;
-    transform: scale(1.02);
-    transition-property: all;
-    transition-duration: 0.3s;
-}
-
-.tercera-img{
-    width: 250px;
-    height: 250px;
-    font-size: 30px;
-    transition: 0.3s;
-}
-
-.tercera-img:hover{
-    box-shadow: 1px 1px 15px;
-    transform: scale(1.02);
-    transition-property: all;
-    transition-duration: 0.3s;
-}
-
-.cuarta-img{
+    transition: 0.3s; }
+    .imagenes .guantes-1 .tercera-img:hover {
+      box-shadow: 1px 1px 15px;
+      transform: scale(1.02);
+      transition-property: all;
+      transition-duration: 0.3s; }
+  .imagenes .guantes-1 p {
+    font-size: 1.3rem; }
+  .imagenes .cinturon-2 h3 {
+    margin-bottom: 3px; }
+  .imagenes .cinturon-2 .cuarta-img {
     align-items: center;
     width: 250px;
     height: 250px;
     font-size: 30px;
-    transition: 0.3s;
+    transition: 0.3s; }
+    .imagenes .cinturon-2 .cuarta-img:hover {
+      box-shadow: 1px 1px 15px;
+      transform: scale(1.02);
+      transition-property: all;
+      transition-duration: 0.3s; }
+  .imagenes .cinturon-2 p {
+    font-size: 1.3rem; }
 
-}
-
-.cuarta-img:hover{
-    box-shadow: 1px 1px 15px;
-    transform: scale(1.02);
-    transition-property: all;
-    transition-duration: 0.3s;
-}
-
-.straps-1 h3{
-    margin-bottom: 3px;
-}
-
-.guantes-1 h3{
-    margin-bottom: 3px;
-}
-
-.cinturon-2 h3{
-    margin-bottom: 3px;
-}
-
-.cinturon-1 h3{
-    margin-bottom: 3px;
-}
-
-
-.conjuntos{
-
-    display: flex;
-    justify-content: space-around;
-}
-
-.conjunto-nike{
-
-    text-align: center;
-    color: white;
-}
-
-.conjunto-nike h2{
-
-    margin-bottom: 6px;
-
-    
-}
-
-.conjunto-adidas{
-
-    text-align: center;
-    color: white;
-}
-
-.conjunto-adidas h2{
-
-    margin-bottom: 6px;
-
-    
-}
-
-.nike{
+.conjuntos {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  color: white;
+  font-size: 1.3rem; }
+  .conjuntos .conjunto-nike h2 {
+    margin-bottom: 6px; }
+  .conjuntos .conjunto-nike .nike {
     width: 280px;
     padding: 10px;
-    transition: 0.5s;
-}
-
-.nike:hover{
-
-    box-shadow: 1px 1px 15px;
-    transform: scale(1.02);
-    transition-property: all;
-    transition-duration: 0.5s;
-
-}
-
-.adidas{
+    transition: 0.5s; }
+    .conjuntos .conjunto-nike .nike:hover {
+      box-shadow: 1px 1px 15px;
+      transform: scale(1.02);
+      transition-property: all;
+      transition-duration: 0.5s; }
+  .conjuntos .conjunto-adidas h2 {
+    margin-bottom: 6px; }
+  .conjuntos .conjunto-adidas .adidas {
     width: 280px;
     padding: 10px;
-    transition: 0.5s;
-}
+    transition: 0.5s; }
+    .conjuntos .conjunto-adidas .adidas:hover {
+      box-shadow: 1px 1px 15px;
+      transform: scale(1.02);
+      transition-property: all;
+      transition-duration: 0.5s; }
 
-.adidas:hover{
-    box-shadow: 1px 1px 15px;
-    transform: scale(1.02);
-    transition-property: all;
-    transition-duration: 0.5s;
-}
+footer {
+  color: white;
+  background-color: black;
+  font-size: 18px; }
+  footer p {
+    font-size: 1.2rem;
+    text-align: center; }
+  footer .footer-ubi {
+    margin-top: 250px; }
 
-.conjuntos .conjunto-adidas p{
-    font-size: 30px;
-    margin-bottom: 5px;
-}
+a {
+  color: #0f0101; }
 
-.conjuntos .conjunto-nike p{
-    font-size: 30px;
-}
+main .nosotros {
+  text-align: center; }
+  main .nosotros h2 {
+    font-size: 3rem; }
+  main .nosotros p {
+    font-size: 1.5rem; }
 
+main .nosotros-dos {
+  text-align: center; }
+  main .nosotros-dos h3 {
+    font-size: 2rem; }
+  main .nosotros-dos p {
+    font-size: 1.5rem;
+    margin-bottom: 285px; }
 
-.contacto h2{
+main .contacto {
+  color: black; }
+  main .contacto h2 {
     padding: 10px;
     margin: 5px;
     text-align: center;
-    font-size: 80px;
-}
-
-.contacto p{
+    font-size: 4rem; }
+  main .contacto p {
     text-align: center;
-    font-size: 20px;
-}
+    font-size: 1.5rem; }
 
-.total{
-    margin: 5px;
-    padding: 2px;
-}
-
-.numero h3{
+main .total {
+  margin: 5px;
+  padding: 2px; }
+  main .total .numero {
     color: white;
     font-size: 30px;
-    text-shadow: 2px 3px 9px;
-}
-
-.numero p{
-    color: azure;
-    font-size: 20px;
-    margin: 7px;
-}
-
-
-.mail h3{
+    text-shadow: 2px 3px 9px; }
+  main .total .mail {
     color: white;
     font-size: 30px;
-    text-shadow: 2px 3px 9px;
-}
-
-.mail p{
-    color: azure;
-    font-size: 20px;
-    margin: 7px;
-}
-
-.redes h3{
+    text-shadow: 2px 3px 9px; }
+  main .total .redes {
     color: white;
     font-size: 30px;
-    text-shadow: 2px 3px 9px;
-}
+    text-shadow: 2px 3px 9px; }
 
-.redes p{
-    color: azure;
-    font-size: 20px;
-    margin: 7px;
-    
-}
+.recomendaciones {
+  height: 10px;
+  padding: 50px;
+  text-align: center;
+  font-size: 90px; }
 
-.nosotros h2{
-    font-size: 80px;
-    text-align: center;
-    
-}
-
-.nosotros p{
-    font-size: 20px;
-}
-
-.nosotros-dos h3{
-    font-size: 40px;
-    text-align: center;
-}
-
-.nosotros-dos p{
-    font-size: 20px;
-    margin-bottom: 295px;
-}
-
-.mapa{
-    text-align: center;
+.imagenes {
+  background-color: #b4b4b4;
+  padding: 9.5px;
+  margin: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 100px;
+  text-align: center; }
+  .imagenes .proteina-1 h3 {
+    margin-bottom: 3px; }
+  .imagenes .proteina-1 .primera-img {
+    width: 250px;
+    height: 250px;
+    font-size: 30px;
+    transition: 0.3s; }
+    .imagenes .proteina-1 .primera-img:hover {
+      box-shadow: 1px 1px 15px;
+      transform: scale(1.02);
+      transition-property: all;
+      transition-duration: 0.3s; }
+  .imagenes .proteina-2 h3 {
+    margin-bottom: 3px; }
+  .imagenes .proteina-2 .segunda-img {
+    width: 250px;
+    height: 250px;
+    font-size: 30px;
+    transition: 0.3s; }
+    .imagenes .proteina-2 .segunda-img:hover {
+      box-shadow: 1px 1px 15px;
+      transform: scale(1.02);
+      transition-property: all;
+      transition-duration: 0.3s; }
+  .imagenes .proteina-4 h3 {
+    margin-bottom: 3px; }
+  .imagenes .proteina-4 .tercera-img {
+    width: 250px;
+    height: 250px;
+    font-size: 30px;
+    transition: 0.3s; }
+    .imagenes .proteina-4 .tercera-img:hover {
+      box-shadow: 1px 1px 15px;
+      transform: scale(1.02);
+      transition-property: all;
+      transition-duration: 0.3s; }
+  .imagenes .creatina-1 h3 {
+    margin-bottom: 3px; }
+  .imagenes .creatina-1 .cuarta-img {
     align-items: center;
-    margin-top: 87px;
-}
+    width: 250px;
+    height: 250px;
+    font-size: 30px;
+    transition: 0.3s; }
+    .imagenes .creatina-1 .cuarta-img:hover {
+      box-shadow: 1px 1px 15px;
+      transform: scale(1.02);
+      transition-property: all;
+      transition-duration: 0.3s; }
 
-.precios{
-    font-size: 25px;
-}
-
-footer{
-    color: white;
-    background-color: black;
-    font-size: 18px;
-}
-
-footer p{
-    margin-top: 40px;
-}
-
-.footer-ubi{
-
-    margin-top: 250px
-}
-
-.footer-margin{
-    margin-top: 250px
-    
-}
-
-a{
-    color: rgb(15, 1, 1);
-}
-
-@media screen and (max-width:500px) {
-
-    body{
-        background-image: url(../img/Gym.jpg);
-        background-position: center;
-    }
-    
-
-    header{
-        background-color: rgb(206, 206, 206);;
-        padding: 10px;
-        align-items: center;
-        
-    }
-    
-    header h1{
-        background-color: white;
-        border-radius: 80px;
-        text-shadow: 2px 3px 8px;
-        font-size: 30px;
-        padding: 15px;
-    }
-
-    nav ul{
-        list-style: none;
-        display: grid;
-        grid-template-columns: 50% 50%;
-        padding: 10px;
-        gap: 15px;
-    }
-    
-    nav ul li{
-        background-color:white;
-        padding: 10px;
-        border-radius: 150px;
-        text-shadow: 2px 1px 8px black;
-        text-align: center;
-    }
-
-    .recomendaciones{
-        height: 10px;
-        padding: 50px;
-        text-align: center;
-        text-decoration: underline black 2px;
-        font-size: 50px;
-    }
-
-    .imagenes{
-        background-color:rgb(180, 180, 180);
-        padding: 9.5px;
-        margin: 100px;
-        display: grid;
-        gap: 60px;
-        text-align: center;
-    }
-    
-    .primera-img{
-        width: 250px;
-        height: 250px;
-        font-size: 30px;
-    }
-    
-    .segunda-img{
-        width: 250px;
-        height: 250px;
-        font-size: 30px;
-    }
-    
-    .tercera-img{
-        width: 250px;
-        height: 250px;
-        font-size: 30px;
-    }
-    
-    .cuarta-img{
-        align-items: center;
-        width: 250px;
-        height: 250px;
-        font-size: 30px;
-    
-    }
-
-    .nike{
-        width: 200px;
-        padding: 10px;
-        transition: 0.5s;
-    }
-
-
-    .adidas{
-        width: 200px;
-        padding: 10px;
-        transition: 0.5s;
-    }
-
-
-    h3{
-        font-size: 30px;
-    }
-
-    
-    .contacto h2{
-        padding: 10px;
-        margin: 5px;
-        text-align: center;
-        font-size: 40px;
-        text-decoration: underline 2px;
-    }
-    
-    .contacto p{
-        text-align: center;
-        font-size: 20px;
-    }
-    
-    .total{
-        margin: 5px;
-        padding: 2px;
-    }
-    
-    .numero h3{
-        font-size: 22px;
-        text-shadow: 2px 3px 9px;
-    }
-    
-    .numero p{
-        font-size: 18px;
-        margin: 7px;
-    }
-    
-    
-    .mail h3{
-        font-size: 22px;
-        text-shadow: 2px 3px 9px;
-    }
-    
-    .mail p{
-        font-size: 18px;
-        margin: 7px;
-    }
-    
-    .redes h3{
-        font-size: 22px;
-        text-shadow: 2px 3px 9px;
-    }
-    
-    .redes p{
-        font-size: 18px;
-        margin: 7px;
-    }
-
-    .nosotros h2{
-        font-size: 50px;
-        text-align: center;
-        text-decoration: underline double 2px;
-        margin: 20px;
-        
-    }
-    
-    .nosotros p{
-        font-size: 18px;
-    }
-    
-    .nosotros-dos h3{
-        font-size: 40px;
-        text-align: center;
-        margin: 20px;
-    }
-    
-    .nosotros-dos p{
-        font-size: 18px;
-    }
-
-    .ubicacion{
-        width: 100%;
-    }
-        
-    
-
-
-}
+.mapa {
+  text-align: center;
+  align-items: center;
+  margin-top: 70px;
+  font-size: 2.2rem; }
+  .mapa h2 {
+    margin-bottom: 1rem; }

@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Prata', serif;
+
+}
+
+@import "utilidades/variables";
+@import "utilidades/mixin";
+@import "html/index";
+@import "html/nosotros";
+@import "html/contacto";
+@import "html/suplementos";
+@import "html/ubicacion";

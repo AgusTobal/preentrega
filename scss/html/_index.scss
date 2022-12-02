@@ -1,0 +1,192 @@
+body{
+    background-color:GhostWhite;
+    background-image: url(../img/Gym.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+header{
+    background-color: $color-header;
+    padding: 15px;
+    @include flex;
+
+    h1{
+        background-color: white;
+        border-radius: 50px;
+        text-shadow: 2px 3px 8px;
+        font-size: 40px;
+        padding: 10px;
+
+    }
+    nav{
+        ul{
+            list-style: none;
+            @include flex;
+            gap: 10px;
+            li{
+                background-color:white;
+                padding: 10px;
+                border-radius: 150px;
+                text-shadow: 3px 2px 7px black;
+                transition: 0.5s;
+                &:hover{
+                    background-color: rgb(173, 173, 173);
+                    transform: scale(0.9);
+                    transition-property: all;
+                    transition-duration: 0.3s;
+                }
+            }
+        }
+    }
+}
+
+/*main*/
+
+.recomendaciones{
+    height: 10px;
+    padding: 50px;
+    text-align: center;
+    font-size: 90px;
+}
+
+.imagenes{
+    background-color:rgb(180, 180, 180);
+    padding: 9.5px;
+    margin: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 100px;
+    text-align: center;
+
+    .straps-1{
+        h3{
+            margin-bottom: 3px;
+        }
+        .primera-img{
+            width: 250px;
+            height: 250px;
+            font-size: 3px;
+            transition: 0.3s;
+            &:hover{
+                @include hover-img;
+             }
+        }
+        p{
+            font-size: 1.3rem
+        }
+    }
+
+    .cinturon-1{
+        h3{
+            @include margin-h3;
+        }
+        .segunda-img{
+            width: 250px;
+            height: 250px;
+            font-size: 30px;
+            transition: 0.3s;
+            &:hover{
+                @include hover-img;
+            }
+        }
+        p{
+            font-size: 1.3rem
+        }
+    }
+    .guantes-1{
+        h3{
+            @include margin-h3;
+        }
+        .tercera-img{
+            width: 250px;
+            height: 250px;
+            font-size: 30px;
+            transition: 0.3s;
+            &:hover{
+                @include hover-img;
+            }
+        }
+        p{
+            font-size: 1.3rem
+        }
+    }
+    .cinturon-2{
+        h3{
+            @include margin-h3;
+        }
+        .cuarta-img{
+            align-items: center;
+            width: 250px;
+            height: 250px;
+            font-size: 30px;
+            transition: 0.3s;
+            &:hover{
+                @include hover-img;
+            }
+        }
+        p{
+            font-size: 1.3rem
+        }
+    }
+
+}
+
+.conjuntos{
+    @include flex-2;
+    text-align: center;
+    color: $color-conjuntos;
+    font-size: 1.3rem;
+    .conjunto-nike{
+        h2{
+            margin-bottom: 6px;
+        }
+        .nike{
+            width: 280px;
+            padding: 10px;
+            transition: 0.5s;
+            &:hover{
+                box-shadow: 1px 1px 15px;
+                transform: scale(1.02);
+                transition-property: all;
+                transition-duration: 0.5s;
+            }
+        }
+    }
+
+    .conjunto-adidas{
+        h2{
+            margin-bottom: 6px;
+        }
+        .adidas{
+            width: 280px;
+            padding: 10px;
+            transition: 0.5s;
+            &:hover{
+                box-shadow: 1px 1px 15px;
+                transform: scale(1.02);
+                transition-property: all;
+                transition-duration: 0.5s;
+            }
+        }
+    }
+}
+
+footer{
+    color: $color-textos;
+    background-color: black;
+    font-size: 18px;
+
+    p{
+        font-size: 1.2rem;
+        text-align: center;
+    }
+
+    .footer-ubi{
+
+        margin-top: 250px
+    }
+    
+}
+a{
+    color: rgb(15, 1, 1);
+}
