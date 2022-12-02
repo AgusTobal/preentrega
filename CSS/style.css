@@ -156,6 +156,76 @@ footer {
 a {
   color: #0f0101; }
 
+@media screen and (max-width: 500px) {
+  body {
+    background-image: url(../img/Gym.jpg);
+    background-position: center; }
+  header {
+    background-color: #cecece;
+    padding: 10px;
+    align-items: center; }
+    header h1 {
+      background-color: white;
+      border-radius: 80px;
+      text-shadow: 2px 3px 8px;
+      font-size: 30px;
+      padding: 15px; }
+    header nav ul {
+      list-style: none;
+      display: grid;
+      grid-template-columns: 50% 50%;
+      padding: 10px;
+      gap: 15px; }
+      header nav ul li {
+        background-color: white;
+        padding: 10px;
+        border-radius: 150px;
+        text-shadow: 2px 1px 8px black;
+        text-align: center; }
+  .recomendaciones {
+    height: 10px;
+    padding: 50px;
+    text-align: center;
+    text-decoration: underline black 2px;
+    font-size: 50px; }
+  .imagenes {
+    background-color: #b4b4b4;
+    padding: 9.5px;
+    margin: 100px;
+    display: grid;
+    gap: 60px;
+    text-align: center; }
+    .imagenes .straps-1 .primera-img {
+      width: 250px;
+      height: 250px;
+      font-size: 2rem; }
+    .imagenes .cinturon-1 .segunda-img {
+      width: 250px;
+      height: 250px;
+      font-size: 2rem; }
+    .imagenes .guantes-1 .tercera-img {
+      width: 250px;
+      height: 250px;
+      font-size: 2rem; }
+    .imagenes .cinturon-2 .cuarta-img {
+      width: 250px;
+      height: 250px;
+      font-size: 2rem; }
+  .conjuntos .conjunto-nike h2 {
+    font-size: 1.5rem; }
+  .conjuntos .conjunto-nike .nike {
+    width: 200px;
+    padding: 10px;
+    transition: 0.5s; }
+  .conjuntos .conjunto-adidas h2 {
+    font-size: 1.5rem; }
+  .conjuntos .conjunto-adidas .adidas {
+    width: 200px;
+    padding: 10px;
+    transition: 0.5s; }
+  h3 {
+    font-size: 1.5rem; } }
+
 main .nosotros {
   text-align: center; }
   main .nosotros h2 {
@@ -170,6 +240,20 @@ main .nosotros-dos {
   main .nosotros-dos p {
     font-size: 1.5rem;
     margin-bottom: 285px; }
+
+@media screen and (max-width: 500px) {
+  .nosotros h2 {
+    font-size: 40px;
+    text-align: center;
+    margin: 20px; }
+  .nosotros p {
+    font-size: 1.3rem; }
+  .nosotros-dos h3 {
+    font-size: 40px;
+    text-align: center;
+    margin: 20px; }
+  .nosotros-dos p {
+    font-size: 1.3rem; } }
 
 main .contacto {
   color: black; }
@@ -262,6 +346,64 @@ main .total {
       transition-property: all;
       transition-duration: 0.3s; }
 
+@media screen and (max-width: 500px) {
+  body {
+    background-image: url(../img/Gym.jpg);
+    background-position: center; }
+  header {
+    background-color: #cecece;
+    padding: 10px;
+    align-items: center; }
+    header h1 {
+      background-color: white;
+      border-radius: 80px;
+      text-shadow: 2px 3px 8px;
+      font-size: 30px;
+      padding: 15px; }
+    header nav ul {
+      list-style: none;
+      display: grid;
+      grid-template-columns: 50% 50%;
+      padding: 10px;
+      gap: 15px; }
+      header nav ul li {
+        background-color: white;
+        padding: 10px;
+        border-radius: 150px;
+        text-shadow: 2px 1px 8px black;
+        text-align: center; }
+  .recomendaciones {
+    height: 10px;
+    padding: 50px;
+    text-align: center;
+    text-decoration: underline black 2px;
+    font-size: 50px; }
+  .imagenes {
+    background-color: #b4b4b4;
+    padding: 9.5px;
+    margin: 100px;
+    display: grid;
+    gap: 60px;
+    text-align: center; }
+    .imagenes .proteina-1 .primera-img {
+      width: 250px;
+      height: 250px;
+      font-size: 2rem; }
+    .imagenes .proteina-2 .segunda-img {
+      width: 250px;
+      height: 250px;
+      font-size: 2rem; }
+    .imagenes .proteina-4 .tercera-img {
+      width: 250px;
+      height: 250px;
+      font-size: 2rem; }
+    .imagenes .creatina-1 .cuarta-img {
+      width: 250px;
+      height: 250px;
+      font-size: 2rem; }
+  h3 {
+    font-size: 1.5rem; } }
+
 .mapa {
   text-align: center;
   align-items: center;
@@ -269,3 +411,14 @@ main .total {
   font-size: 2.2rem; }
   .mapa h2 {
     margin-bottom: 1rem; }
+
+@media screen and (max-width: 500px) {
+  .mapa {
+    text-align: center;
+    align-items: center;
+    margin-top: 70px;
+    font-size: 2.2rem; }
+    .mapa h2 {
+      margin-bottom: 1rem; }
+    .mapa .ubicacion {
+      width: 90%; } }

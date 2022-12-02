@@ -1,11 +1,4 @@
 
-
-@mixin medidas ($ancho, $alto) {
-    width: $ancho ;
-    height: $alto ;
-    
-}
-
 @mixin flex{
     display: flex;
     justify-content: space-between;
@@ -33,4 +26,22 @@
     color: $color-textos;
     font-size: 30px;
     text-shadow: 2px 3px 9px;
+}
+
+@mixin imagenes-mq {
+    width: 250px;
+    height: 250px;
+    font-size: 2rem;
+}
+
+@mixin conjunto-mq {
+    width: 200px;
+    padding: 10px;
+    transition: 0.5s;  
+}
+
+@mixin nosotros-h3 {
+    font-size: 40px;
+    text-align: center;
+    margin: 20px;
 }

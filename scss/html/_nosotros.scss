@@ -21,3 +21,25 @@ main{
      }
     
 }
+
+@media screen and(max-width:500px) {
+    .nosotros{
+        h2{
+            @include nosotros-h3;
+        }
+
+        p{
+            font-size: 1.3rem;
+        }
+    }
+
+    .nosotros-dos{
+        h3{
+           @include nosotros-h3;
+        }
+
+        p{
+            font-size: 1.3rem;
+        }
+    }
+}
