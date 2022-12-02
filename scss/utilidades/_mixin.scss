@@ -24,7 +24,13 @@
 }
 @mixin contacto {
     color: $color-textos;
-    font-size: 30px;
+    font-size: 2rem;
+    text-shadow: 2px 3px 9px;
+}
+
+@mixin contactomq {
+    color: $color-textos;
+    font-size: 1.5rem;
     text-shadow: 2px 3px 9px;
 }
 
@@ -35,13 +41,27 @@
 }
 
 @mixin conjunto-mq {
-    width: 200px;
+    width: 250px;
     padding: 10px;
     transition: 0.5s;  
 }
 
-@mixin nosotros-h3 {
+
+@mixin nosotros-h3segundamq {
     font-size: 40px;
     text-align: center;
     margin: 20px;
+}
+
+@mixin nosotros-h3primeramq {
+    font-size: 40px;
+    text-align: center;
+    margin: 25px;
+}
+
+@mixin conjunto-segundaMQ {
+    
+    width: 200px;
+    padding: 10px;
+    transition: 0.5s;
 }

@@ -156,7 +156,77 @@ footer {
 a {
   color: #0f0101; }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 1024px) {
+  body {
+    background-image: url(../img/Gym.jpg);
+    background-position: center; }
+  header {
+    background-color: #cecece;
+    padding: 10px;
+    align-items: center; }
+    header h1 {
+      background-color: white;
+      border-radius: 80px;
+      text-shadow: 2px 3px 8px;
+      font-size: 30px;
+      padding: 15px; }
+    header nav ul {
+      list-style: none;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 15px; }
+      header nav ul li {
+        background-color: white;
+        padding: 10px;
+        border-radius: 150px;
+        text-shadow: 2px 1px 8px black;
+        text-align: center; }
+  .recomendaciones {
+    height: 10px;
+    padding: 50px;
+    text-align: center;
+    text-decoration: underline black 2px;
+    font-size: 50px; }
+  .imagenes {
+    background-color: #b4b4b4;
+    padding: 9.5px;
+    margin: 100px;
+    display: flex;
+    gap: 60px;
+    text-align: center; }
+    .imagenes .straps-1 .primera-img {
+      width: 250px;
+      height: 250px;
+      font-size: 2rem; }
+    .imagenes .cinturon-1 .segunda-img {
+      width: 250px;
+      height: 250px;
+      font-size: 2rem; }
+    .imagenes .guantes-1 .tercera-img {
+      width: 250px;
+      height: 250px;
+      font-size: 2rem; }
+    .imagenes .cinturon-2 .cuarta-img {
+      width: 250px;
+      height: 250px;
+      font-size: 2rem; }
+  .conjuntos .conjunto-nike h2 {
+    font-size: 1.5rem; }
+  .conjuntos .conjunto-nike .nike {
+    width: 250px;
+    padding: 10px;
+    transition: 0.5s; }
+  .conjuntos .conjunto-adidas h2 {
+    font-size: 1.5rem; }
+  .conjuntos .conjunto-adidas .adidas {
+    width: 250px;
+    padding: 10px;
+    transition: 0.5s; }
+  h3 {
+    font-size: 1.5rem; } }
+
+@media screen and (max-width: 520px) {
   body {
     background-image: url(../img/Gym.jpg);
     background-position: center; }
@@ -241,7 +311,21 @@ main .nosotros-dos {
     font-size: 1.5rem;
     margin-bottom: 285px; }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 1024px) {
+  .nosotros h2 {
+    font-size: 40px;
+    text-align: center;
+    margin: 25px; }
+  .nosotros p {
+    font-size: 1.2rem; }
+  .nosotros-dos h3 {
+    font-size: 40px;
+    text-align: center;
+    margin: 25px; }
+  .nosotros-dos p {
+    font-size: 1.2rem; } }
+
+@media screen and (max-width: 520px) {
   .nosotros h2 {
     font-size: 40px;
     text-align: center;
@@ -271,16 +355,43 @@ main .total {
   padding: 2px; }
   main .total .numero {
     color: white;
-    font-size: 30px;
+    font-size: 2rem;
     text-shadow: 2px 3px 9px; }
   main .total .mail {
     color: white;
-    font-size: 30px;
+    font-size: 2rem;
     text-shadow: 2px 3px 9px; }
   main .total .redes {
     color: white;
-    font-size: 30px;
+    font-size: 2rem;
     text-shadow: 2px 3px 9px; }
+
+@media screen and (max-width: 520px) {
+  main .contacto {
+    color: black; }
+    main .contacto h2 {
+      padding: 10px;
+      margin: 5px;
+      text-align: center;
+      font-size: 4rem; }
+    main .contacto p {
+      text-align: center;
+      font-size: 1.5rem; }
+  main .total {
+    margin: 5px;
+    padding: 2px; }
+    main .total .numero {
+      color: white;
+      font-size: 1.5rem;
+      text-shadow: 2px 3px 9px; }
+    main .total .mail {
+      color: white;
+      font-size: 1.5rem;
+      text-shadow: 2px 3px 9px; }
+    main .total .redes {
+      color: white;
+      font-size: 1.5rem;
+      text-shadow: 2px 3px 9px; } }
 
 .recomendaciones {
   height: 10px;
@@ -308,6 +419,8 @@ main .total {
       transform: scale(1.02);
       transition-property: all;
       transition-duration: 0.3s; }
+  .imagenes .proteina-1 p {
+    font-size: 1.2rem; }
   .imagenes .proteina-2 h3 {
     margin-bottom: 3px; }
   .imagenes .proteina-2 .segunda-img {
@@ -320,6 +433,8 @@ main .total {
       transform: scale(1.02);
       transition-property: all;
       transition-duration: 0.3s; }
+  .imagenes .proteina-2 p {
+    font-size: 1.2rem; }
   .imagenes .proteina-4 h3 {
     margin-bottom: 3px; }
   .imagenes .proteina-4 .tercera-img {
@@ -332,6 +447,8 @@ main .total {
       transform: scale(1.02);
       transition-property: all;
       transition-duration: 0.3s; }
+  .imagenes .proteina-4 p {
+    font-size: 1.2rem; }
   .imagenes .creatina-1 h3 {
     margin-bottom: 3px; }
   .imagenes .creatina-1 .cuarta-img {
@@ -345,8 +462,76 @@ main .total {
       transform: scale(1.02);
       transition-property: all;
       transition-duration: 0.3s; }
+  .imagenes .creatina-1 p {
+    font-size: 1.2rem; }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 1024px) {
+  body {
+    background-image: url(../img/Gym.jpg);
+    background-position: center; }
+  header {
+    background-color: #cecece;
+    padding: 10px;
+    align-items: center; }
+    header h1 {
+      background-color: white;
+      border-radius: 80px;
+      text-shadow: 2px 3px 8px;
+      font-size: 30px;
+      padding: 15px; }
+    header nav ul {
+      list-style: none;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 15px; }
+      header nav ul li {
+        background-color: white;
+        padding: 10px;
+        border-radius: 150px;
+        text-shadow: 2px 1px 8px black;
+        text-align: center; }
+  .recomendaciones {
+    height: 10px;
+    padding: 70px;
+    text-align: center;
+    text-decoration: underline black 2px;
+    font-size: 50px; }
+  .imagenes {
+    background-color: #b4b4b4;
+    padding: 9.5px;
+    margin: 100px;
+    display: grid;
+    gap: 60px;
+    text-align: center; }
+    .imagenes .proteina-1 .primera-img {
+      width: 250px;
+      height: 250px;
+      font-size: 2rem; }
+    .imagenes .proteina-1 p {
+      font-size: 1.5rem; }
+    .imagenes .proteina-2 .segunda-img {
+      width: 250px;
+      height: 250px;
+      font-size: 2rem; }
+    .imagenes .proteina-2 p {
+      font-size: 1.5rem; }
+    .imagenes .proteina-4 .tercera-img {
+      width: 250px;
+      height: 250px;
+      font-size: 2rem; }
+    .imagenes .proteina-4 p {
+      font-size: 1.5rem; }
+    .imagenes .creatina-1 .cuarta-img {
+      width: 250px;
+      height: 250px;
+      font-size: 2rem; }
+    .imagenes .creatina-1 p {
+      font-size: 1.5rem; }
+  h3 {
+    font-size: 1.5rem; } }
+
+@media screen and (max-width: 520px) {
   body {
     background-image: url(../img/Gym.jpg);
     background-position: center; }
@@ -400,9 +585,7 @@ main .total {
     .imagenes .creatina-1 .cuarta-img {
       width: 250px;
       height: 250px;
-      font-size: 2rem; }
-  h3 {
-    font-size: 1.5rem; } }
+      font-size: 2rem; } }
 
 .mapa {
   text-align: center;

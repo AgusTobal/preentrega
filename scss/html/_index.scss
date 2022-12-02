@@ -192,7 +192,109 @@ a{
 }
 
 
-@media screen and (max-width:500px){
+@media screen and (max-width:1024px){
+    body{
+        background-image: url(../img/Gym.jpg);
+        background-position: center;
+    }
+
+    header{
+        background-color: $color-header;
+        padding: 10px;
+        align-items: center;
+        
+        h1{
+            background-color: white;
+            border-radius: 80px;
+            text-shadow: 2px 3px 8px;
+            font-size: 30px;
+            padding: 15px;
+        }
+
+        nav{
+            ul{
+                list-style: none;
+                @include flex;
+                gap: 15px;
+                
+                li{
+                    background-color:white;
+                    padding: 10px;
+                    border-radius: 150px;
+                    text-shadow: 2px 1px 8px black;
+                    text-align: center;
+                }
+            }
+        }
+    }
+
+    .recomendaciones{
+        height: 10px;
+        padding: 50px;
+        text-align: center;
+        text-decoration: underline black 2px;
+        font-size: 50px;
+    }
+
+    .imagenes{
+        background-color:rgb(180, 180, 180);
+        padding: 9.5px;
+        margin: 100px;
+        display: flex;
+        gap: 60px;
+        text-align: center;
+
+        .straps-1{
+            .primera-img{
+                @include imagenes-mq;
+            }
+        }
+
+        .cinturon-1{
+            .segunda-img{
+                @include imagenes-mq;
+            }
+        }
+
+        .guantes-1{
+            .tercera-img{
+                @include imagenes-mq;
+            }
+        }
+
+        .cinturon-2{
+            .cuarta-img{
+                @include imagenes-mq;
+            }
+        }
+    }
+
+    .conjuntos{
+        .conjunto-nike{
+            h2{
+                font-size: 1.5rem;
+            }
+            .nike{
+                @include conjunto-mq;
+            }
+        }
+        .conjunto-adidas{
+            h2{
+                font-size: 1.5rem;
+            }
+            .adidas{
+                @include conjunto-mq;
+            }
+        }
+    }
+    h3{
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and(max-width:520px) {
+
+
     body{
         background-image: url(../img/Gym.jpg);
         background-position: center;
@@ -277,7 +379,7 @@ a{
                 font-size: 1.5rem;
             }
             .nike{
-                @include conjunto-mq;
+                @include conjunto-segundaMQ;
             }
         }
         .conjunto-adidas{
@@ -285,11 +387,13 @@ a{
                 font-size: 1.5rem;
             }
             .adidas{
-                @include conjunto-mq;
+                @include conjunto-segundaMQ;
             }
         }
     }
     h3{
         font-size: 1.5rem;
     }
+
+
 }
